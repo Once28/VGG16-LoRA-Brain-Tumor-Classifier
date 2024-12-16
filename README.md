@@ -23,7 +23,7 @@ To get started, clone this repository:
 
 ```bash
 git clone https://github.com/once28/VGG16-LoRA-Brain-Tumor-Classifier.git
-cd Brain-Tumor-Detection-Model
+cd VGG16-LoRA-Brain-Tumor-Classifier
 ```
 
 ## Requirements
@@ -43,10 +43,10 @@ pip install tensorflow keras numpy matplotlib pandas scikit-learn
 ## Dataset
 The dataset used in this project is the Kaggle Brain Tumor Classification dataset, which contains MRI images labeled as:
 
-glioma_tumor
-meningioma_tumor
-pituitary_tumor
-no_tumor
+- glioma_tumor
+- meningioma_tumor
+- pituitary_tumor
+- no_tumor
 These images are preprocessed to enhance contrast and standardize dimensions for better feature detection. You can download the dataset from Kaggle [here](https://www.kaggle.com/datasets/sartajbhuvaji/brain
 
 -tumor-classification-mri).
@@ -54,17 +54,18 @@ These images are preprocessed to enhance contrast and standardize dimensions for
 ## how-to-run
 Clone the repository and navigate to the project directory:
 ```bash
-git clone https://github.com/yourusername/Brain-Tumor-Detection-Model.git
-cd Brain-Tumor-Detection-Model
+git clone https://github.com/once28/VGG16-LoRA-Brain-Tumor-Classifier.git
+cd VGG16-LoRA-Brain-Tumor-Classifier
 ```
-Download the dataset from Kaggle and place the images in the appropriate folder (e.g., data/train/ and data/test/).
+Download the dataset from Kaggle and place the images in the appropriate folder (e.g., archive/train/ and archive/test/).
 
 If you don't have access to the dataset, you can create an account on Kaggle and download it here.
 Open the notebook model.ipynb using Jupyter:
 
-``bash
+```bash
 jupyter notebook model.ipynb 
 ```
+
 Run the cells in the notebook to:
 Load and preprocess the data.
 Train the VGG16 model with LoRA.
