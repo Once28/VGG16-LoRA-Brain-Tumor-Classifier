@@ -47,9 +47,7 @@ The dataset used in this project is the Kaggle Brain Tumor Classification datase
 - meningioma_tumor
 - pituitary_tumor
 - no_tumor
-These images are preprocessed to enhance contrast and standardize dimensions for better feature detection. You can download the dataset from Kaggle [here](https://www.kaggle.com/datasets/sartajbhuvaji/brain
-
--tumor-classification-mri).
+These images are preprocessed to enhance contrast and standardize dimensions for better feature detection. You can download the dataset from Kaggle [here](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri).
 
 ## how-to-run
 Clone the repository and navigate to the project directory:
@@ -57,9 +55,9 @@ Clone the repository and navigate to the project directory:
 git clone https://github.com/once28/VGG16-LoRA-Brain-Tumor-Classifier.git
 cd VGG16-LoRA-Brain-Tumor-Classifier
 ```
-Download the dataset from Kaggle and place the images in the appropriate folder (e.g., archive/train/ and archive/test/).
+Download the dataset from Kaggle and place the images in the appropriate folder (e.g., archive/training/ and archive/testing/).
 
-If you don't have access to the dataset, you can create an account on Kaggle and download it here.
+If you don't have access to the dataset, you can create an account on Kaggle and download it [here](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri).
 Open the notebook model.ipynb using Jupyter:
 
 ```bash
