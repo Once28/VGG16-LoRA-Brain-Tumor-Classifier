@@ -7,11 +7,14 @@ This repository contains a Python-based deep learning project for classifying br
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [Installation](#installation)
-- [Requirements](#requirements)
-- [Dataset](#dataset)
-- [How to Run](#how-to-run)
+- [VGG16-LoRA-Brain-Tumor-Classifier](#vgg16-lora-brain-tumor-classifier)
+- [Brain Tumor Classification using VGG16 and LoRA](#brain-tumor-classification-using-vgg16-and-lora)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Installation](#installation)
+  - [Requirements](#requirements)
+  - [Dataset](#dataset)
+  - [how-to-run](#how-to-run)
 
 ## Overview
 
